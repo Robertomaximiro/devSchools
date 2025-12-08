@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%pv3-l9m5)1r@q&ozca*$do-#htm(e92#uw&-=)6s4x4jz1n4@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['robertomaximiro.pythonanywhere.com']
 
 
 # Application definition
@@ -138,4 +138,5 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
 # URL da página de login (caso usuário tente acessar área protegida)
+
 LOGIN_URL = '/accounts/login/'
